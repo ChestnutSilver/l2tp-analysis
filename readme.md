@@ -62,15 +62,13 @@ Update：通过一些步骤，可以实现在阿里云 ECS 搭建 l2tp vpn，这
 
 同时，通过wireshark抓取数据包的对比，验证了第二问的正确性。
 
-<img src="https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-2.png" width="200"/>
-
-![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-2.png)
+<img src="https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-2.png" width="400"/>
 
 ![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-3.png)
 
 （图1-2、1-3：针对每一个目标用户，实时监控其l2tp请求，分析、还原、呈现其连接和业务载荷-l2tp协议）
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-4.png)
+<img src="https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-4.png" width="400"/>
 
 （图1-4：针对每一个目标用户，实时监控其l2tp请求，分析、还原、呈现其连接和业务载荷-IPv4协议）
 
