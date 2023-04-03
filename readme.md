@@ -48,7 +48,7 @@ Update：通过一些步骤，可以实现在阿里云 ECS 搭建 l2tp vpn，这
 
 同时，通过观察对比实验，验证了第一问的正确性。
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/pics/1-1.png)
+![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-1.png)
 
 （图1-1：基于windows或linux抓取l2tp协议流量）
 
@@ -62,13 +62,13 @@ Update：通过一些步骤，可以实现在阿里云 ECS 搭建 l2tp vpn，这
 
 同时，通过wireshark抓取数据包的对比，验证了第二问的正确性。
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/pics/1-2.png)
+![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-2.png)
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/pics/1-3.png)
+![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-3.png)
 
 （图1-2、1-3：针对每一个目标用户，实时监控其l2tp请求，分析、还原、呈现其连接和业务载荷-l2tp协议）
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/pics/1-4.png)
+![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-4.png)
 
 （图1-4：针对每一个目标用户，实时监控其l2tp请求，分析、还原、呈现其连接和业务载荷-IPv4协议）
 
@@ -78,7 +78,7 @@ Update：通过一些步骤，可以实现在阿里云 ECS 搭建 l2tp vpn，这
 
 同时，使用第2问的拆解算法，对新的数据包重新拆解，得到了我们替换的新静载荷。
 
-![image](https://github.com/ChestnutSilver/l2tp-analysis/pics/1-5.png)
+![image](https://github.com/ChestnutSilver/l2tp-analysis/blob/main/pics/1-5.png)
 
 （图1-5：支持对特定目标的静载荷替换）
 
